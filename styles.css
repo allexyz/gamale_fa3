@@ -1,0 +1,69 @@
+@keyframes fadein{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+body{
+	background-image: url(Eden_Academy.jpg);
+	font-family: 'Jost', sans-serif;
+}
+main{
+	background-color: white;
+	width: 50%;
+	margin: 50px auto;
+	padding: 25px;
+	border-radius: 10px;
+	animation-name: fadein;
+	animation-duration: 1s;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+.info{
+	text-align: center;
+}
+.row{
+	display: flex;
+	margin: 50px 0;
+}
+.container{
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+}
+.container p{
+	font-size: 20px;
+}
+.container h3, .container p{
+	margin: 30px;
+}
+#acc{
+	color: green;
+}
+#wait{
+	color: saddlebrown;
+}
+#rej{
+	color: red;
+}
+#announcement{
+	font-weight: bold;
+}
+footer{
+	font-size: 12px;
+	background-color: white;
+	width: 50%;
+	margin: 50px auto;
+	padding: 25px;
+	border-radius: 10px;
+	animation-name: fadein;
+	animation-duration: 1s;
+}
+#italic{
+	font-style: italic;
+}
